@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background: #fafafa;
+  --text: #4d4f62;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--background);
+  font-family: "Poppins", sans-serif;
+  padding: 85px 32px 78px 32px;
+  text-align: center;
+}
+.description {
+  font-size: 24px;
+  font-weight: 275;
+  line-height: 36px;
+  letter-spacing: 0.17px;
+  color: var(--text);
+}
+.title {
+  color: #4d4f62;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.25px;
+  margin-bottom: 13px;
+}
+.info {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  color: #4d4f62;
+  opacity: 0.5;
+  margin-bottom: 76px;
+  text-align: center;
+}
+.card {
+  width: 100%;
+  padding-bottom: 28px;
+  overflow: hidden;
+
+  background-color: white;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+}
+
+.Supervisor {
+  margin-bottom: 25px;
+}
+.Team__Builder {
+  margin-bottom: 23px;
+}
+.karma {
+  margin-bottom: 24px;
+}
+.Calculator {
+  margin-bottom: 78px;
+}
+
+.card__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4d4f62;
+  text-align: left;
+}
+.card__info {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  color: #4d4f62;
+  text-align: left;
+  opacity: 50%;
+  margin-bottom: 33px;
+}
+.icon {
+  width: 57px;
+  height: 57px;
+  margin-left: auto;
+}
+
+.border {
+  width: 100%;
+  height: 3.5px;
+
+  margin-bottom: 24.5px;
+}
+.Supervisor__border {
+  background: #44d3d2;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+.Team__Builder__border {
+  background: #ea5454;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+.Karma__border {
+  background: #fcae4a;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+.Calculator__border {
+  background: #549ef2;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.content {
+  padding: 0 28px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1440px) {
+  .description,
+  .title {
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+  }
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .info {
+    width: 540px;
+    text-align: center;
+  }
+  .card {
+    width: 350px;
+    height: 250px;
+  }
+  .card__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .Team__Builder {
+    margin-bottom: 30px;
+  }
+  .Calculator {
+    margin-bottom: 0;
+  }
+  .Supervisor {
+    margin-bottom: 0;
+  }
+}
